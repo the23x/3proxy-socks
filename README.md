@@ -1,6 +1,7 @@
 3proxy as SOCKS5 proxy install script 
 Debian / Ubuntu VPS (ver 0.8.11)
 ======================================================
+FOR AWS, added sudo command to instructions
 
 **HOW TO :**
 

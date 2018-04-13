@@ -10,13 +10,13 @@ To download and install just run these commands, a) or b), depending in your sit
 
 a) for single IP
 
-	sudo wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyinstaller.sh
+	sudo wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/aws/3proxyinstaller.sh
     	sudo chmod +x 3proxyinstaller.sh
     	sudo ./3proxyinstaller.sh
 
 b) for multiple IP's (this will download a different .cfg file prepared for multiple IPs)
 
-    sudo wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxy_installerX.sh
+    sudo wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/aws/3proxy_installerX.sh
     sudo chmod +x 3proxy_installerX.sh
     sudo ./3proxy_installerX.sh
     
@@ -40,7 +40,7 @@ Once you've change the username / password you can start the proxy
 	
 For Uninstall Download, make executable and run with these lines :
 
-	sudo wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyuninst.sh
+	sudo wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/aws/3proxyuninst.sh
 	sudo chmod +x 3proxyuninst.sh
 	sudo ./3proxyuninst.sh
 

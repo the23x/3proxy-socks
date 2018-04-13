@@ -8,11 +8,11 @@ cd src
 sudo mkdir /etc/3proxy/
 sudo mv 3proxy /etc/3proxy/
 cd /etc/3proxy/
-sudo wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-socks/master/3proxy.cfg
+sudo wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-socks/aws/3proxy.cfg
 sudo chmod 600 /etc/3proxy/3proxy.cfg
-sudo wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-socks/master/.proxyauth
+sudo wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-socks/aws/.proxyauth
 sudo chmod 600 /etc/3proxy/.proxyauth
 cd /etc/init.d/
-sudo wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-socks/master/3proxyinit
+sudo wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-socks/aws/3proxyinit
 sudo chmod  +x /etc/init.d/3proxyinit
 sudo update-rc.d 3proxyinit defaults

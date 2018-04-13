@@ -1,3 +1,4 @@
+to use in Amazon Web Services
 3proxy as SOCKS5 proxy install script 
 Debian / Ubuntu VPS (ver 0.8.11)
 ======================================================

@@ -46,6 +46,7 @@ For Uninstall Download, make executable and run with these lines :
 
 - Ubuntu 16.04 64bit (AWS)
 - Debian 8
+- Debian 9
 
 
 **Script will run on :**

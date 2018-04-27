@@ -3,6 +3,7 @@ apt-get install -y build-essential nano
 wget --no-check-certificate https://github.com/z3APA3A/3proxy/archive/0.8.11.tar.gz
 tar xzf 0.8.11.tar.gz
 cd 3proxy-0.8.11
+sed -i '1s/^/#define ANONYMOUS 1\n/' ./src/proxy.h
 make -f Makefile.Linux
 cd src
 mkdir /etc/3proxy/

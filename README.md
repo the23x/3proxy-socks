@@ -1,5 +1,5 @@
 3proxy as SOCKS5 proxy install script 
-Debian / Ubuntu VPS (ver 0.8.11)
+Debian / Ubuntu VPS (ver 0.8.12)
 ======================================================
 
 **HOW TO :**
@@ -42,7 +42,7 @@ For Uninstall Download, make executable and run with these lines :
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
-**Script last tested on April 2018 on the following fresh VPS install distros :**
+**Script last tested on December 2018 on the following fresh VPS install distros :**
 
 - Ubuntu 16.04 64bit (AWS)
 - Debian 8
